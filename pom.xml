@@ -62,6 +62,13 @@
           <artifactId>vraptor</artifactId>
           <version>${vraptor.version}</version>
       </dependency>
+
+      <dependency>
+          <groupId>br.com.caelum.vraptor</groupId>
+          <artifactId>vraptor-plugin-hibernate4</artifactId>
+          <version>x.y.z</version>
+      </dependency>
+
   </dependencies>
 
     <properties>
@@ -70,6 +77,7 @@
         <skipTests>true</skipTests>
         <junit.version>4.11</junit.version>
         <mysql-connector-java.version>5.1.22</mysql-connector-java.version>
+        <vraptor-plugin-hibernate4.version>1.0.0</vraptor-plugin-hibernate4.version>
         <vraptor.version>3.3.1</vraptor.version>
     </properties>
 
