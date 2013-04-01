@@ -66,7 +66,7 @@
       <dependency>
           <groupId>br.com.caelum.vraptor</groupId>
           <artifactId>vraptor-plugin-hibernate4</artifactId>
-          <version>x.y.z</version>
+          <version>${vraptor-plugin-hibernate4.version}</version>
       </dependency>
 
   </dependencies>
